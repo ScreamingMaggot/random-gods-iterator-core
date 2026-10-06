@@ -1,0 +1,24 @@
+# 版权/大文件：原始音频、解包游戏素材、旧像素管线、渲染产物一律不入库
+resource/
+ref/
+pixel/
+web/
+任务.txt
+
+# 渲染输出目录（1GB+ 帧图 / 视频 / 截图）——仅保留可复现所需的派生特征数据
+out/*
+!out/pack.json
+!out/acts.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 任何音视频
+*.mp3
+*.mp4
+*.webm
+*.wav
+
+# 浏览器工具产物
+.playwright-cli/
